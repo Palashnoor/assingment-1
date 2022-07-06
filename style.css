@@ -8,10 +8,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
-
-
-
-
 }
 
 h1 {
@@ -53,20 +49,64 @@ p {
     transform: translateY(-50%);
 }
 
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 40%;
+}
+
 .amount {
-    font-size: x-small;
-    font-weight: 3px solid rgb(221, 21, 21);
-    width: 15%;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding-left: 2px;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
+    width: 30%;
+    height: 30%;
+    font-size: 2px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-left: 1%;
+    padding: 20px 10px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 10px;
 }
 
 #contrainer {
     display: flex;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 0.5;
+}
+
+
+
+#two-hundred-taka {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: orange;
+    font-weight: 100;
+    padding: 20px;
+    border-radius: 5px;
+    object-position: center;
+    border: 5px solid red;
+
+}
+
+.two-hundred {
+    color: red;
+}
+
+.text-amount {
+    color: darkgrey;
+    text-align: center;
+    padding: 2px;
+    margin: 5% 5% 5% 5%;
+    font-weight: 200;
+    font-size: large;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: darkgray;
 }
