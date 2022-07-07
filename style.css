@@ -159,3 +159,37 @@ hr {
     background-color: bisque;
     opacity: 50%;
 }
+
+.depend-donation {
+    width: 50%;
+    padding: 2%;
+    text-align: left;
+
+}
+
+.depend-donation img {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.contribute-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+    object-position: center;
+
+}
+
+.contribute-div {
+    margin-left: 30%;
+}
+
+#lives-depend {
+    text-align: left;
+    margin-left: 2%;
+}
