@@ -193,3 +193,53 @@ hr {
     text-align: left;
     margin-left: 2%;
 }
+
+.my-updates {
+    font-weight: 4px solid black;
+    padding-bottom: 2px;
+    font-size: 200%;
+}
+
+.update-form {
+    width: 700px;
+    height: 200px;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    background-color: antiquewhite;
+}
+
+.email-button {
+    font-size: medium;
+    background-color: rgb(236, 231, 231);
+    width: 250px;
+    height: 50px;
+    border-radius: 5px 5px;
+    margin-left: 25%;
+    margin-top: 10%;
+
+}
+
+.subscribe-button {
+    font-size: medium;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    width: 100px;
+    height: 50px;
+    margin-left: -20px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer-last {
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+}
+
+.be-humble {
+    font-family: 'Lobster', cursive;
+    color: crimson;
+}
+
+.gonna-do-it {
+    color: white;
+}
